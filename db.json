@@ -39,23 +39,17 @@
             ]
         }
     ],
-    
+
     "UserData": [
         {
             "id": 1,
-            "rating": 10,
-            "text": "hej"
+            "name": "Olle",
+            "password": "pkmn"
         },
         {
             "id": 2,
-            "rating": 5,
-            "text": "på"
-        },
-        {
-            "id": 3,
-            "rating": 8,
-            "text": "dig"
+            "name": "Robin",
+            "text": "pkmn"
         }
-
     ]
 }

@@ -3,9 +3,9 @@ function Choose() {
     return (
         
         <div className="choose-img">
-           <Link class="pkmn__link" to="/Rival"><img src="/images/jj.png" alt=""/></Link>
-            <Link class="pkmn_link" to="/Rival"><img src="/images/001.png" alt=""/></Link>
-           <Link class="pkmn__link" to="/Start"><img src="/images/007.png" alt=""/></Link>
+           <Link className="pkmn__link" to="/Rival"><p className="ball1"/></Link>
+            <Link className="pkmn_link" to="/Rival"><p className="ball2"/></Link>
+           <Link className="pkmn__link" to="/Start"><p className="ball3"/></Link>
    </div>           
     );
     }

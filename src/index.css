@@ -238,18 +238,63 @@ progress::-webkit-progress-bar {
 
 .choose-img{
   background-image: url(./images/choose.jpg) ;
+  position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 900px;
   max-width: 900px;
   height: 900px;
   max-height: 900px;
-  margin:0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
+  left: 500px;
+  top: 10px;
+}
+
+.ball1{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 5px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball1:hover {
+  background: url(../public/images/001.png) no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.ball2{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball2:hover {
+  background: url(../public/images/007.png) no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.ball3{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball3:hover {
+  background: url(../public/images/jj.png) no-repeat;
+  width: 300px;
+  height: 300px;
 }
 
 .Links{
@@ -269,11 +314,17 @@ progress::-webkit-progress-bar {
 .rival-img{
 
   background-image: url(./images/rival.jpg) ;
+  position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 800px;
-  max-width: 800px;
-  height:800px;
-  max-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  max-width: 900px;
+  height: 900px;
+  max-height: 900px;
+  left: 500px;
+  top: 10px;
   
 }
