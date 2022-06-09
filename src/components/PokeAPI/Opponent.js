@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 
+
 const initProfile = {
     id: null,
     image: null,
@@ -30,7 +31,7 @@ const Opponent = () => {
         <h1>{pokemon.name}</h1>
         <img src={pokemon.image} alt="Charmander" />
         <h3>{`Type: ${pokemon.type}`}</h3>
-        <ul className="attack-list"></ul>
+        
     </div>
   )
 };
