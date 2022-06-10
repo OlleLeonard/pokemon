@@ -144,6 +144,7 @@ progress::-webkit-progress-bar {
   box-shadow: 0 0 40px rgba(0 0 0 0.2);
   border-radius: var(--border-radius);
   background: #f677e5;
+  border-style: solid;
 }
 
 .container,
@@ -151,10 +152,6 @@ progress::-webkit-progress-bar {
 .form__button {
   font-family: 'Cherry Cream Soda', cursive;
   font-size: 20px;
-}
-
-.form--hidden {
-  display: none;
 }
 
 .form > *:first-child {
@@ -176,14 +173,6 @@ progress::-webkit-progress-bar {
   margin-bottom: 1px;
 }
 
-
-.form__message--success {
-color: var(--color-success);
-}
-
-.form__message--error {
-  color: var(--color-error);
-}
 
 .form__input-group {
   margin-bottom: 1rem;
@@ -222,6 +211,7 @@ color: var(--color-success);
   outline: none;
   cursor: pointer;
   background: var(--color-primary);
+  border-style: solid;
 }
 
 .form__button:hover {
@@ -247,14 +237,73 @@ color: var(--color-success);
 }
 
 .choose-img{
-  background-image: url(./images/choose.jpg) ;
+  background-image: url(../public/images/rivalpkmn.jpg) ;
+  position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 900px;
   max-width: 900px;
   height: 900px;
   max-height: 900px;
+  left: 500px;
+  top: 10px;
+}
 
+.ball1{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball1:hover {
+  background: url(../public/images/bulb.png) no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.ball2{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball2:hover {
+  background: url(../public/images/007.png) no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.ball3{
+  background: url(../public/images/pokeball.png) no-repeat;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.ball3:hover {
+  background: url(../public/images/jj.png) no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.Links{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration-color: #30eb18;
+  border-style: solid;
 }
 
 .pkmn__link {
@@ -264,12 +313,18 @@ color: var(--color-success);
 
 .rival-img{
 
-  background-image: url(./images/rival.jpg) ;
+  background-image: url(../public/images/choosepkmn.jpg) ;
+  position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 800px;
-  max-width: 800px;
-  height:800px;
-  max-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  max-width: 900px;
+  height: 900px;
+  max-height: 900px;
+  left: 500px;
+  top: 10px;
   
 }

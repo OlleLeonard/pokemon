@@ -2,6 +2,7 @@ import React from 'react'
 import Fetch from '../PokeAPI/Fetch'
 import Opponent from '../PokeAPI/Opponent'
 import Attack from '../Combat/Attack'
+import {Link} from "react-router-dom";
 
 const Arena = () => {
   return (
@@ -19,6 +20,7 @@ const Arena = () => {
          <Attack />
        </div>
       </div>
+      <div className="container"> <Link className="Links" to="/Choose">Press to Restart</Link></div>
     </div>
   )
 }
