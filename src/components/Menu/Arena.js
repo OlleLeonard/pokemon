@@ -20,7 +20,7 @@ const Arena = () => {
          <Attack />
        </div>
       </div>
-      <div className="container"> <Link className="Links" to="/Start">Press to Restart</Link></div>
+      <div className="container"> <Link className="Links" to="/Choose">Press to Restart</Link></div>
     </div>
   )
 }

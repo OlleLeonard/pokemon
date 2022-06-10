@@ -237,7 +237,7 @@ progress::-webkit-progress-bar {
 }
 
 .choose-img{
-  background-image: url(./images/choose.jpg) ;
+  background-image: url(../public/images/rivalpkmn.jpg) ;
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
@@ -255,14 +255,14 @@ progress::-webkit-progress-bar {
 .ball1{
   background: url(../public/images/pokeball.png) no-repeat;
   position: absolute;
-  left: 5px;
+  left: 0px;
   top: 100px;
   width: 300px;
   height: 300px;
 }
 
 .ball1:hover {
-  background: url(../public/images/001.png) no-repeat;
+  background: url(../public/images/bulb.png) no-repeat;
   width: 300px;
   height: 300px;
 }
@@ -313,7 +313,7 @@ progress::-webkit-progress-bar {
 
 .rival-img{
 
-  background-image: url(./images/rival.jpg) ;
+  background-image: url(../public/images/choosepkmn.jpg) ;
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
